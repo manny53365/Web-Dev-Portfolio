@@ -54,6 +54,12 @@ p {
   padding-top: 100px;
 }
 
+.profile-img{
+  max-width: 150px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
 .middle-container {
   margin: 100px 0;
 }
