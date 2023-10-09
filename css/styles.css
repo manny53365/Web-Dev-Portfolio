@@ -245,3 +245,28 @@ body {
     margin-top: 20px;
 }
 
+
+.work-experience {
+  width: 70%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.job {
+  margin: 20px 0;
+}
+
+.job h3 {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.job h4 {
+  color: #11999E;
+  margin-bottom: 10px;
+}
+
+.job p {
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+}
