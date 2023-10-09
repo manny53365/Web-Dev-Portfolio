@@ -1,116 +1,144 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Manuel Rodriguez</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d9626bc37f.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
 
-    <div class="top-container">
-      <img class="top-cloud" src="./images/cloud.png" alt="cloud">
-      <h1>I'm Manny.</h1>
-      <h2>A full-stack web developer from Florida</h2>
-      <img class="bottom-cloud" src="./images/cloud.png" alt="cloud">
-      <img src="./images/mountain.png" alt="mountain">
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Manuel Rodriguez</title>
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="favicon.ico" rel="icon" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&amp;family=Montserrat&amp;family=Sacramento&amp;display=swap" rel="stylesheet" />
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/d9626bc37f.js"></script>
+</head>
+
+<body>
+    <div class="top-container" id="top-container">
+        <nav>
+            <a href="#intro">Intro</a>
+            <a href="#skills-section">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact-me">Contact</a>
+        </nav>
+        <h1>I'm Manny.</h1>
+        <h2>A full-stack web developer from Florida</h2>
     </div>
     <div class="middle-container">
-      <div class="profile">
-        <img class="profile-img" src="./Manuel_Rodriguez.png" alt="Manuel Rodriguez Profile Image">
-        <h2>Hello.</h2>
-        <p class="intro">A Software Engineer with 3 years of experience in developing and maintaining robust applications.
-          Skilled in promptly addressing and resolving client-reported issues.
-          Demonstrated expertise in implementing new features and enhancing existing systems using technologies such as Python, MongoDB, and React.
-          Effective collaborator with cross-functional teams and clients, ensuring applications align with evolving business needs.
-          Passionate about continuous learning and harnessing the latest technologies to solve real-world challenges.</p>
-      </div>
-      <hr>
-      <div class="skills-section">
-          <h2>My Skills</h2>
-          <div class="skill-category">
-              <h3>Programming Languages:</h3>
-              <ul>
-                  <li>Python</li>
-                  <li>JavaScript</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-              </ul>
-          </div>
-          <div class="skill-category">
-              <h3>Frameworks & Libraries:</h3>
-              <ul>
-                  <li>React</li>
-                  <li>Cypress</li>
-                  <li>Express.js</li>
-                  <li>Passport.js</li>
-                  <li>Bootstrap</li>
-                  <li>jQuery</li>
-                  <li>slack/web-api</li>
-                  <li>body-parser</li>
-                  <li>genezio</li>
-              </ul>
-          </div>
-          <div class="skill-category">
-              <h3>Databases:</h3>
-              <ul>
-                  <li>MongoDB</li>
-                  <li>SQL</li>
-              </ul>
-          </div>
-          <div class="skill-category">
-              <h3>Tools & Platforms:</h3>
-              <ul>
-                  <li>Git</li>
-                  <li>Docker</li>
-                  <li>AWS</li>
-              </ul>
-          </div>
-          <div class="skill-category">
-              <h3>Soft Skills:</h3>
-              <ul>
-                  <li>Effective Communication</li>
-                  <li>Team Collaboration</li>
-                  <li>Problem-solving</li>
-              </ul>
-          </div>
-      </div>
-      <hr>
-      <div class="projects">
-        <h2>My Projects</h2>
-        <div class="project-row">
-          <img class="images" src="./images/computer.png" alt="">
-          <h3>To do list</h3>
-          <p>I created this project using JavaScript mainly, I use MongoDB to persist the data; in addition I also used expressjs to allow for route parameters. This allows you to create custom lists.<a href="https://protected-forest-70709.herokuapp.com/" target="_blank">Link to "To do list" project</a></p>
+        <div class="profile">
+            <img alt="Manuel Rodriguez Profile Image" class="profile-img" src="./Manuel_Rodriguez.png" />
+            <h2 id="intro">Intro</h2>
+            <p class="intro">A Software Engineer with 3 years of experience in developing and maintaining robust
+                applications.
+                Skilled in promptly addressing and resolving client-reported issues.
+                Demonstrated expertise in implementing new features and enhancing existing systems using technologies
+                such as Python, MongoDB, and React.
+                Effective collaborator with cross-functional teams and clients, ensuring applications align with
+                evolving business needs.
+                Passionate about continuous learning and harnessing the latest technologies to solve real-world
+                challenges.</p>
         </div>
-        <div class="project-row">
-          <img class="images chillies-img" src="./images/computer.png" alt="">
-          <h3>Blog Website</h3>
-            <p>This project was a sample blog website using MongoDB, expressjs, and the lodash library. The lodash library allowed me to create custom pages for each post id generated in the mongo database.<a href="https://polar-caverns-53490.herokuapp.com/" target="_blank">Link to "Blog website" project</a></p>
+        <hr />
+        <div class="skills-section" id="skills-section">
+            <h2>My Skills</h2>
+            <div class="skill-category">
+                <h3>Programming Languages:</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Frameworks &amp; Libraries:</h3>
+                <ul>
+                    <li>React</li>
+                    <li>Cypress</li>
+                    <li>Express.js</li>
+                    <li>Passport.js</li>
+                    <li>Bootstrap</li>
+                    <li>jQuery</li>
+                    <li>slack/web-api</li>
+                    <li>body-parser</li>
+                    <li>genezio</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Databases:</h3>
+                <ul>
+                    <li>MongoDB</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools &amp; Platforms:</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>Docker</li>
+                    <li>AWS</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Soft Skills:</h3>
+                <ul>
+                    <li>Effective Communication</li>
+                    <li>Team Collaboration</li>
+                    <li>Problem-solving</li>
+                </ul>
+            </div>
         </div>
-        <div class="project-row">
-          <img class="images" src="./images/computer.png" alt="">
-          <h3>Secrets web page</h3>
-          <p>This project was created as a mock up version of the post secret website. I used expressjs, and implemented passportjs to add user authentication and session cookies. Using passportjs I also created a sign up and sign in with google authentication method. A user must be signed in to be able to view the Secrets page.<a href="https://salty-anchorage-82230.herokuapp.com/" target="_blank">Link to "Secrets" project</a></p>
+        <hr />
+        <div class="projects" id="projects">
+            <h2>My Projects</h2>
+            <div class="project-row">
+                <img alt="" class="images" src="./images/computer.png" />
+                <h3>To do list</h3>
+                <p>I created this project using JavaScript mainly, I use MongoDB to persist the data; in addition I also
+                    used expressjs to allow for route parameters. This allows you to create custom lists.<a
+                        href="https://protected-forest-70709.herokuapp.com/" target="_blank">Link to "To do list"
+                        project</a></p>
+            </div>
+            <div class="project-row">
+                <img alt="" class="images chillies-img" src="./images/computer.png" />
+                <h3>Blog Website</h3>
+                <p>This project was a sample blog website using MongoDB, expressjs, and the lodash library. The lodash
+                    library allowed me to create custom pages for each post id generated in the mongo database.<a
+                        href="https://polar-caverns-53490.herokuapp.com/" target="_blank">Link to "Blog website"
+                        project</a></p>
+            </div>
+            <div class="project-row">
+                <img alt="" class="images" src="./images/computer.png" />
+                <h3>Secrets web page</h3>
+                <p>This project was created as a mock up version of the post secret website. I used expressjs, and
+                    implemented passportjs to add user authentication and session cookies. Using passportjs I also
+                    created a sign up and sign in with google authentication method. A user must be signed in to be able
+                    to view the Secrets page.<a href="https://salty-anchorage-82230.herokuapp.com/" target="_blank">Link
+                        to "Secrets" project</a></p>
+            </div>
+            <div class="project-row">
+                <img alt="" class="images chillies-img" src="./images/computer.png" />
+                <h3>Slack Bot</h3>
+                <p>This is a pure JavaScript project, I leveraged the genez.io plaform to host my app and respond to webhooks coming from Slack.
+                    The purpose of the bot is to allow a user to automatically monitor the status of their crypto node(s), more details in the read me file in the repo.
+                    <a href="https://github.com/manny53365/Slack-Bot" target="_blank">Link to "Slack Bot" github project</a>
+                </p>
+            </div>
         </div>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <p class= 'contact-message'>Contact me for professional inquiries.</p>
-        <a class="btn" href="mailto:mannyrodriguez011@gmail.com">CONTACT ME</a>
-      </div>
+        <hr />
+        <div class="contact-me" id="contact-me">
+            <h2>Get In Touch</h2>
+            <p class="contact-message">Contact me for professional inquiries.</p>
+            <a class="btn" href="mailto:mannyrodriguez011@gmail.com">CONTACT ME</a>
+        </div>
     </div>
-
     <div class="bottom-container">
-      <a class="footer-link fab fa-fonticons-fi" href="https://www.fiverr.com/mannyrodriguez0" target="_blank"></a>
-      <a class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/manuel-rodriguez-804b9597" target="_blank"></a>
-      <p class='copyright'>© Manuel Rodriguez</p>
+        <a class="footer-link fab fa-fonticons-fi fa-brands" href="https://www.fiverr.com/mannyrodriguez0"
+            target="_blank"></a>
+        <a class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/manuel-rodriguez-804b9597"
+            target="_blank"></a>
+        <p class="copyright">© Manuel Rodriguez</p>
     </div>
+</body>
 
-  </body>
 </html>
