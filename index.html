@@ -206,7 +206,10 @@
             target="_blank"></a>
         <a class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/manuel-rodriguez-804b9597"
             target="_blank"></a>
-        <p class="copyright">© Manuel Rodriguez</p>
+        <p class="copyright">© Manuel Rodriguez <span id="currentYear"></span></p>
+        <script>
+            document.getElementById("currentYear").textContent = new Date().getFullYear();
+        </script>
     </div>
 </body>
 
