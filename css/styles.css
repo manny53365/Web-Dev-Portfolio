@@ -228,10 +228,6 @@ body {
     transform: scale(1.05);
 }
 
-/* .bottom-container {
-    padding: 30px 0;
-    background-color: #40514E;
-} */
 .footer-link, .fa-brands {
     margin: 0 15px;
     font-size: 1.5rem;
@@ -244,7 +240,6 @@ body {
     color: #EAF6F6;
     margin-top: 20px;
 }
-
 
 .work-experience {
   width: 70%;
@@ -269,4 +264,8 @@ body {
 .job p {
   font-family: 'Merriweather', serif;
   line-height: 1.5;
+}
+
+.job ul li {
+  list-style-type: none;
 }
